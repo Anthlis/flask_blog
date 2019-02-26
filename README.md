@@ -2,24 +2,29 @@
 
 This repository contains the source for my personal blog, built with Python microframework Flask and using Frozen-Flask and Flask-FlatPages to generate a static site. I've added my own customizations to the scaffolding offered by other projects, listed below.
 
-## Using ##
-You are welcome, within the limits of each requirement's license, to take and use as you please my implementation here (minus the content & personal info, of course). To do so:
+## Publishing ##
 
-1. create a new directory for your blog in your projects folder (or wherever you want to keep your blog's source files) ```$ mkdir my_blog```
-2. change into your new blog's directory ```$ cd my_blog```
+This blog is not yet published on the web as an actual blog with my own content. 
+I am using @florapdx excellent repository on GitHub as a basis having followed the tutorials below too. Find @florapdx's repo on GitHub here: https://github.com/florapdx/My-Blog
+Thank you @florapdx 
+
+## Using ##
+
+1. create a new directory for your blog in your projects folder (or wherever you want to keep your blog's source files) ```$ mkdir flask_blog```
+2. change into your new blog's directory ```$ cd flask_blog```
 3. create a new virtualenv for your blog:
-* if you create your virtualenvs in each of your projects' folders: ```$ mkdir my_blogs_env``` and then ```$ virtualenv my_blogs_env```
+* if you create your virtualenvs in each of your projects' folders: ```$ mkdir my_blogs_env``` and then ```$ python3 -m venv my_blogs_env```
 * if you create your virtualenvs in their own directory, separate from your project files (but also in your home directory): ```$ mkdir -p ~/Virtualenvs_directory/my_blog_env``` and then ```$ virtualenv ~/Virtualenvs_directory/my_blog_env```
 4. activate your virtualenv:
 * ```$ source my_blogs_env/bin/activate``` 
 * or ```$ ~/Virtualenvs_directory/my_blogs_env/bin/activate```
 5. Install the foundation requirements:
 ```$ pip install Flask Frozen-Flask Flask-FlatPages```
-6. clone this repo ```$ git clone https://github.com/florapdx/My-Blog.git``` 
+6. clone this repo ```$ git clone https://github.com/anthlis/flask-blog.git``` 
 Note: until such time as I set up a separate repo to house only the scaffolding, you will have to strip out all of my personal blog stuff, twitter widget, meetup.com widget, etc.
 …or, see the "Attributions" list and follow their lead to make your own implementation :)
 7. Do it up! Add filters for different post tags; customize the templates; add some cool JS; make it pretty with your own CSS…you get the idea.
-8. Run locally with the command ```$ python sitebuilder.py``` and "freeze" for publishing with ```$ python sitebuilder.py build```
+8. Run locally with the command ```$ python3 sitebuilder.py``` and "freeze" for publishing with ```$ python sitebuilder.py build```
 
 ## Attribution ##
 There's not a whole lot to pull from when using these tools, so I relied heavily on the following projects to get going (and recommend that you do too):
