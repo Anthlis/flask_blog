@@ -5,8 +5,8 @@ This repository contains the source for my personal blog, built with Python micr
 ## Publishing ##
 
 This blog is not yet published on the web as an actual blog with my own content. 
-I am using @florapdx excellent repository on GitHub as a basis having followed the tutorials below too. Find @florapdx's repo on GitHub here: https://github.com/florapdx/My-Blog
-Thank you @florapdx 
+I am using @floraworley excellent repository on GitHub as a basis having followed the tutorials below too. Find @florapdx's repo on GitHub here: https://github.com/florapdx/My-Blog
+Thank you @floraworley
 
 ## Using ##
 
